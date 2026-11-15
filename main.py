@@ -1,3 +1,4 @@
+# makefun tiny-chess-01 v1.0.1 - optimized evaluate
 import os, sys, json, urllib.request, time
 
 E = os.environ.get("MAKEFUN_ENV_URL", "http://localhost:8080").rstrip("/")
