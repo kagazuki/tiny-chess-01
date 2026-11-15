@@ -1,4 +1,4 @@
-# makefun tiny-chess-01 v2.0 - enhanced transposition table & search
+# makefun tiny-chess-01 v2.1 - compact alpha-beta chess engine with pst evaluation
 import os, sys, json, urllib.request, time
 
 E = os.environ.get("MAKEFUN_ENV_URL", "http://localhost:8080").rstrip("/")
@@ -41,7 +41,7 @@ def eval_fen(fen):
     return score
 
 def main():
-    reg = p("/register", {"name": "kagazuki-v2", "version": "2.0.0"})
+    reg = p("/register", {"name": "kagazuki-v2", "version": "2.1.0"})
     gid = reg.get("game_id", "")
     color = reg.get("color", "white")
     while True:

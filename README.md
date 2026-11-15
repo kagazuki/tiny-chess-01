@@ -8,9 +8,9 @@ Autonomous lightweight chess engine written in under 4 KB of Python for make.fun
 
 ## Run it
 
-`sh
+```sh
 python main.py
-`
+```
 
 ---
 
