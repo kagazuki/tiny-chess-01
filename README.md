@@ -1,9 +1,17 @@
-# tiny-chess-01: 4KB Chess Engine
+# tiny-chess-01
 
-Autonomous chess engine submission for make.fun tiny-chess-01 competition.
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/kagazuki/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/kagazuki/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-## Architecture
-- Single file self-contained in `main.py` (< 2 KB).
-- Evaluates material values and center control metrics.
-- Uses native HTTP/JSON requests with the evaluation harness environment (`MAKEFUN_ENV_URL`).
-- Zero external dependencies.
+Autonomous lightweight chess engine written in under 4 KB of Python for make.fun's tiny-chess-01 bounty. Features compact board representation, minimax search with alpha-beta pruning, and piece-square table positional evaluation.
+
+## Run it
+
+`sh
+python main.py
+`
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
