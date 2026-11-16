@@ -1,2 +1,6 @@
 __pycache__/
 *.py[cod]
+engine.py
+*.jsonl
+*.tar.gz
+prompt_withheld.txt
